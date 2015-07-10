@@ -8,8 +8,6 @@ Vagrant.require_version ">= 1.6.0"
 CLOUD_CONFIG_PATH = File.join(File.dirname(__FILE__), "user-data")
 CONFIG = File.join(File.dirname(__FILE__), "config.rb")
 
-FORWARD_DOCKER_PORTS='true'
-
 # Defaults for config options defined in CONFIG
 $num_instances = 1
 $instance_name_prefix = "core"
